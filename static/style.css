@@ -1,15 +1,43 @@
 *{
-    align: center;
+     align: center; 
+
+    
+}   
+body{
+    background-image: url("ink.jpg.crdownload");
+   background-size:cover;
+   
+   background-repeat:repeat-y;
+
 }
 #url{
-    align: center;
-    size: 100px;
-    height: 50px;
-    width: 600px;
+    border: 2px solid rgb(14, 10, 9);
+    
+    background:none;
+    background-color: rgb(18, 47, 90);
+    border-radius: 4px 2px;
+    
+    
+   
+    
+    size: 100%;
+    height: 100%;
+    width: 100%;
     font-family: Arial;
     font-size: 25px;
-    margin-top: 2%;
-    margin-left: 25%;
+    
+    background: #ffd324;
+    background-image: -webkit-linear-gradient(top, #ffd324, #fab120);
+    background-image: -moz-linear-gradient(top, #ffd324, #fab120);
+    background-image: -ms-linear-gradient(top, #ffd324, #fab120);
+    background-image: -o-linear-gradient(top, #ffd324, #fab120);
+    background-image: linear-gradient(to bottom, #ffd324, #fab120);
+    border-radius: 15px;
+    
+    
+    
+  
+   
 }
 .btn {
     background: #ffd324;
@@ -20,12 +48,16 @@
     background-image: linear-gradient(to bottom, #ffd324, #fab120);
     border-radius: 15px;
     font-family: sans-serif;
-    color: #ffffff;
+    color:black;
+    stroke: brown;
     font-size: 29px;
     padding: 10px 20px 10px 20px;
     text-decoration: black;
-    margin-top: 2%;
-    margin-left: 43%;
+    
+    position:fixed;
+    left: 50%;
+top: 60%;
+transform: translate(-50%, -50%);
 }
 
 .btn:hover {
@@ -51,4 +83,36 @@
 .center{
     font-family: "American Typewriter";
     font-size: 40px;
+    margin: auto ;
+}
+h1{
+    color: rgb(221, 195, 48);
+    position: fixed;
+    display: block;
+    left: 50%;
+top: 15%;
+transform: translate(-50%, -50%);
+    
+
+   
+}
+
+.box{
+    height: 50px;
+    width: 70%;
+    
+   
+        display: inline-block;
+        position:fixed;
+       
+        
+left: 50%;
+top: 40%;
+transform: translate(-50%, -50%);
+        
+        
+       
+      
+       
+
 }
